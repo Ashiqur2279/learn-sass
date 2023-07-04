@@ -1,0 +1,87 @@
+/* browser reset code */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//color variable declaration
+
+$header_bg_color: #636e72;
+$body_bg_color: #74b9ff;
+$footer_bg_color: #a29bfe;
+$nav_bg_color: #4941b6;
+$font_color: #ffffff;
+$hover_color: #9980fa;
+
+//font size
+
+$para_font_size: 18px;
+$nav_font_size: 22px;
+$footer_font_size: 20px;
+
+//nav style
+
+nav {
+  padding: 10px;
+  background-color: $nav_bg_color;
+  font-size: $nav_font_size;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        text-decoration: none;
+        color: $font_color;
+        padding: 10px;
+        display: inline-block;
+        transition: 0.5s;
+        border-radius: 5px;
+      }
+      a:hover {
+        background-color: $hover_color;
+      }
+    }
+  }
+}
+
+//header style
+
+header {
+  background: $header_bg_color;
+  display: flex;
+  justify-content: center;
+}
+
+//main body style
+
+main {
+  background: $body_bg_color;
+  padding: 20px;
+ section h2{ display: flex;
+  justify-content: center;
+  padding:10px;
+  color: $font_color;
+}
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+main p {
+  font-size: $para_font_size;
+}
+
+//footer style
+
+footer {
+  background: $footer_bg_color;
+  text-align:end;
+  padding: 15px;
+  font-size: $footer_font_size;
+}

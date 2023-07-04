@@ -1,0 +1,64 @@
+/* browser reset code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px;
+  background-color: #4941b6;
+  font-size: 22px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #9980fa;
+}
+
+header {
+  background: #636e72;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background: #74b9ff;
+  padding: 20px;
+}
+main section h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #ffffff;
+}
+main p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main p {
+  font-size: 18px;
+}
+
+footer {
+  background: #a29bfe;
+  text-align: end;
+  padding: 15px;
+  font-size: 20px;
+}/*# sourceMappingURL=demo.css.map */
